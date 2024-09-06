@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Team Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Company Name</h1>
+        <p>Welcome to [Your Company Name], where a dedicated team of professionals works together to bring innovation, creativity, and expertise to the software industry. Get to know the individuals who make our company thrive.</p>
+    </header>
+
+    <section class="team-section">
+        <h2>Meet Our Team</h2>
+
+        <div class="team-category">
+            <h3>Leadership / Management Team</h3>
+            <div class="team-members">
+                <!-- Repeat for each team member -->
+                <div class="team-member">
+                    <img src="path_to_image" alt="Founder Name">
+                    <p>Founder Name</p>
+                    <p>Founder/CEO</p>
+                </div>
+                <!-- Add more team members here -->
+            </div>
+        </div>
+
+        <div class="team-category">
+            <h3>Development Team</h3>
+            <div class="team-members">
+                <!-- Repeat for each team member -->
+                <div class="team-member">
+                    <img src="path_to_image" alt="Developer Name">
+                    <p>Developer Name</p>
+                    <p>Team Lead, SE</p>
+                </div>
+                <!-- Add more team members here -->
+            </div>
+        </div>
+
+        <div class="team-category">
+            <h3>Sales and Marketing Team</h3>
+            <div class="team-members">
+                <!-- Repeat for each team member -->
+                <div class="team-member">
+                    <img src="path_to_image" alt="Employee Name">
+                    <p>Employee Name</p>
+                    <p>Team Lead</p>
+                </div>
+                <!-- Add more team members here -->
+            </div>
+        </div>
+    </section>
+</body>
+</html>

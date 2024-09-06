@@ -1,0 +1,93 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #6A1B9A;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #555;
+}
+
+.team-section {
+    text-align: center;
+}
+
+.team-section h2 {
+    color: #6A1B9A;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.team-category {
+    margin-bottom: 40px;
+}
+
+.team-category h3 {
+    color: #6A1B9A;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.team-category h3::before {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #6A1B9A;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 150px;
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    margin-bottom: 5px;
+}
+
+.team-member p:last-child {
+    color: #888;
+    font-size: 0.9em;
+}
